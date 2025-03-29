@@ -11,3 +11,10 @@
     --bs-laranja: #FFB01C;
     --bs-verde: #CBD211;
 }
+/*Carrossel*/
+.carousel-control-next-icon {
+    background-image: url(../img/icons/Diretaseta.png) !important;
+}
+.carousel-control-prev-icon {
+    background-image: url(../img/icons/Esquerdaseta.png) !important;
+}
