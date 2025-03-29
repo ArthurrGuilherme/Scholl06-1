@@ -1,0 +1,12 @@
+* {
+    padding: 0 !important;
+    border: 0 !important;
+    margin: 0 !important;
+}
+/*Vareaveis*/
+:root {
+    --bs-azul-claro: #CCE2DC;
+    --bs-azul-intermediario: #0687A7;
+    --bs-azul-escuro: #003057;
+    --bs-laranja: #FFB01C;
+}
