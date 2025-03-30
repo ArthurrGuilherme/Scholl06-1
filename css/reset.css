@@ -10,6 +10,7 @@
     --bs-azul-escuro: #003057;
     --bs-laranja: #FFB01C;
     --bs-verde: #CBD211;
+    --bs-verde-claro: rgb(209, 216, 50);
 }
 /*Carrossel*/
 .carousel-control-next-icon {
