@@ -66,7 +66,7 @@
             } else {
                 Swal.fire({
                     icon: 'error',
-                    title: 'Ops!',
+                    title: 'A resposta correta',
                     text: erroMessage
                 });
                 checkboxes.forEach(checkbox => checkbox.checked = false);
