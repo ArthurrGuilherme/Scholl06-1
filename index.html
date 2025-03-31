@@ -160,13 +160,12 @@
                                                             <!--Titulo-->
                                                             <br>
                                                             <span class="d-flex justify-content-evenly align-items-center">
-                                                                <!--Questão01-->
-                                                                    <button style="background: var(--bs-azul-intermediario); cursor: pointer;" class="icon-button w-25" onclick="mostrarPopup()">
+                                                                <!--Questões 01-->
+                                                                    <button style="background: var(--bs-azul-intermediario); cursor: pointer;" class="icon-button w-25" onclick="mostrarPopup('popup1')">
                                                                         <img class="w-100" src="./img/icons/questao01.png" alt="Primeiro Icon">
-                                                                    </button>
-                                                                
-                                                                    <div id="popup" class="popup-overlay">
-                                                                        <div class="popup-content">
+                                                                    </button>  
+                                                                    <div id="popup1" class="popup-overlay" onclick="fecharPopup('popup1')" aria-hidden="true">
+                                                                        <div class="popup-content" onclick="event.stopPropagation()">
                                                                             <p><strong>Cenário:</strong>
                                                                                 A flexibilidade permite lidar com imprevistos e mudanças no cotidiano, como ajustar as prioridades ou encontrar novas soluções para problemas inesperados.
                                                                             </p>
@@ -177,16 +176,36 @@
                                                                             <p><strong>Pergunta:</strong>
                                                                                 Como a flexibilidade contribui para a adaptação a imprevistos no dia a dia e para a busca de soluções eficazes?
                                                                             </p>
-                                                                            <textarea id="input-text" oninput="checkInput()" placeholder="Digite algo..."></textarea> 
-                                                                            <div class="btn-container justify-content-center align-items-center" id="btn-container">
-                                                                                <button id="BtnEnvio" class="btn btn-primary" onclick="enviarTexto()">Enviar</button>
+                                                                            <textarea id="input-text1" oninput="checkInput('input-text1', 'btn-container1')" placeholder="Digite algo..."></textarea> 
+                                                                            <div class="btn-container justify-content-center align-items-center" id="btn-container1" style="visibility: hidden;">
+                                                                                <button class="btn btn-primary" id="BtnEnvio" onclick="enviarTexto('input-text1', 'popup1', 'A flexibilidade facilita a adaptação a situações inesperadas, permitindo que as pessoas reorganizem seus planos sem comprometer seus objetivos. Seja ao mudar a rota no trânsito ou ao adotar novas tecnologias para otimizar tarefas, esta habilidade ajuda a enfrentar desafios de forma prática e eficiente.')">Feedback</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>  
+                                                                <!--Questões 01-->
+                                                                <!-- Questão 02 -->
+                                                                    <button style="background: var(--bs-azul-intermediario); cursor: pointer;" class="icon-button w-25" onclick="mostrarPopup('popup2')">
+                                                                        <img class="w-100" src="./img/icons/questao02.png" alt="Segundo Icon">
+                                                                    </button>  
+                                                                    <div id="popup2" class="popup-overlay" onclick="fecharPopup('popup2')" aria-hidden="true">
+                                                                        <div class="popup-content" onclick="event.stopPropagation()">
+                                                                            <p><strong>Cenário:</strong>
+                                                                                A flexibilidade permite lidar com imprevistos e mudanças no cotidiano, como ajustar as prioridades ou encontrar novas soluções para problemas inesperados.
+                                                                            </p>
+                                                                            <p><strong>Instruções:</strong>
+                                                                                Com base no texto, analise como a flexibilidade pode auxiliar na resolução de desafios diários. 
+                                                                                Utilize exemplos práticos para fundamentar sua resposta.
+                                                                            </p>
+                                                                            <p><strong>Pergunta:</strong>
+                                                                                Como a flexibilidade contribui para a adaptação a imprevistos no dia a dia e para a busca de soluções eficazes?
+                                                                            </p>
+                                                                            <textarea id="input-text2" oninput="checkInput('input-text2', 'btn-container2')" placeholder="Digite algo..."></textarea> 
+                                                                            <div class="btn-container justify-content-center align-items-center" id="btn-container2" style="visibility: hidden;">
+                                                                                <button class="btn btn-primary" id="BtnEnvio" onclick="enviarTexto('input-text2', 'popup2', 'Obrigado pela resposta sobre imprevistos!')">Feedback</button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                <!--Questão01-->
-                                                                <!--Questão02-->    
-                                                                    <img class="w-25" src="./img/icons/questao02.png" alt="Segundo Icon">
-                                                                <!--Questão02-->   
+                                                                <!-- Questão 02 -->
                                                                 <img class="w-25" src="./img/icons/questao03.png" alt="Terceiro Icon">
                                                             </span>
                                                         </span>

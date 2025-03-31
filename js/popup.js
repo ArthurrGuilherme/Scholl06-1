@@ -1,41 +1,36 @@
+function mostrarPopup(id) {
+    document.getElementById(id).style.display = "flex";
+    document.getElementById(id).setAttribute("aria-hidden", "false");
+}
 
-/*Container03*/
-    /*Questão01*/
-        function mostrarPopup() {
-            document.getElementById("popup").style.display = "flex";
-        }
+function fecharPopup(id) {
+    document.getElementById(id).style.display = "none";
+    document.getElementById(id).setAttribute("aria-hidden", "true");
+}
 
-        function fecharPopup() {
-            document.getElementById("popup").style.display = "none";
-        }
+function checkInput(inputId, btnContainerId) {
+    const inputText = document.getElementById(inputId).value;
+    const btnContainer = document.getElementById(btnContainerId);
+    if (inputText.trim() !== "") {
+        btnContainer.style.visibility = "visible";
+        btnContainer.style.display = "flex"; // Certifica que ele aparece
+    } else {
+        btnContainer.style.visibility = "hidden";
+        btnContainer.style.display = "none"; // Oculta corretamente
+    }
+}
 
-        function checkInput() {
-            const inputText = document.getElementById("input-text").value;
-            const btnContainer = document.getElementById("btn-container");
+function enviarTexto(inputId, popupId, mensagem) {
+    const inputValue = document.getElementById(inputId).value;
+    if (!inputValue.trim()) {
+        Swal.fire('Erro', 'Por favor, preencha o campo!', 'error');
+        return;
+    }
 
-            if (inputText.trim() !== "") {
-                btnContainer.style.display = "flex";
-            } else {
-                btnContainer.style.display = "none"; 
-            }
-        }
-
-        function enviarTexto() {
-            const inputValue = document.getElementById("input-text").value;
-            if (!inputValue.trim()) {
-                Swal.fire('Erro', 'Por favor, preencha o campo!', 'error');
-                return;
-            }
-
-            // SweetAlert message
-            Swal.fire({
-                title: 'Resposta Enviada!<br><br>',
-                html: '<p>Sua resposta foi enviada com sucesso!</p><br><br>',
-                icon: 'success',
-                confirmButtonText: '<button id="BtnSweet">Fechar</button>'
-            });
-
-            fecharPopup(); 
-        }
-    /*Questão01*/
-/*Container03*/
+    Swal.fire({
+        title: 'Exemplo de resposta <br><br>',
+        html: `<p>${mensagem}</p>`,
+        icon: 'success',
+        confirmButtonText: 'Fechar'
+    }).then(() => fecharPopup(popupId));
+}
