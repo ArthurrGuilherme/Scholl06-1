@@ -12,6 +12,7 @@
             align-items: center;
             overflow-y: auto;
             padding: 20px;
+            z-index: 999;
         }
         .popup-content {
             width: 100% !important;
@@ -43,3 +44,17 @@
         }
     /*Popup*/
 /*Container03*/
+#swal2-title {
+    padding-top: 1rem !important;
+    font-family: OpenSans-Regular !important;
+}
+.swal2-confirm {
+    display: none !important;
+}
+.swal2-html-container {
+    padding: 1rem !important;
+    padding-bottom: 3rem !important;
+}
+#Sweetstrong  {
+    text-align: justify !important;
+}

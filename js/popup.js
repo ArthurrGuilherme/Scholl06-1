@@ -66,7 +66,7 @@
             } else {
                 Swal.fire({
                     icon: 'error',
-                    title: 'A resposta correta',
+                    title: 'Ops!',
                     text: erroMessage
                 });
                 checkboxes.forEach(checkbox => checkbox.checked = false);
@@ -91,3 +91,24 @@
         });
     /*Checks*/
 /*Container04*/
+
+function mostrarPopup2() {
+    Swal.fire({
+        title: '<strong >Situação 1</strong>',
+        html: `<div id="Sweetstrong">
+            <p>Dalila é estudante de Economia e faz parte de um projeto em parceria entre a sua universidade e uma empresa do ramo energético que visa captar jovens talentos para compor os diversos times da referida empresa. Somente os alunos com histórico de elevado desempenho acadêmico e participação em atividades extracurriculares são selecionados para o processo seletivo. </p>
+                <br>
+            <p>Ela estava muito confiante de que estaria entre os selecionados, mas no último semestre, depois de muitas dores, incômodos e idas ao médico, foi diagnosticada com doença celíaca, o que lhe impôs uma restrição de consumo de alimentos com a presença de glúten. </strong></p>
+                <br>
+            <p>Dalila precisou passar por diversos profissionais e orientações com nutricionistas para ajustar os seus hábitos alimentares, também por seções de psicoterapia para se reorganizar em relação a sua nova condição. Em meio a tudo isso, ela passou a temer pelo processo seletivo, já que todas estas adaptações e novos sentimentos afetaram os seus estudos e prazos e, portanto, havia o receio de suas notas diminuírem.</p>
+                <br>
+            <p>Ela decide conversar sobre a sua situação com a professora Carolline, coordenadora do seu curso. Carolline orienta-lhe a adequar seus horários de estudos as suas novas rotinas de alimentação e exercícios. Além disso, se coloca à disposição de Dalila para outras conversas, se necessário for. 
+            Com este suporte e se sentindo mais confiante, Dalila segue se esforçando para manter o seu excelente desempenho acadêmico.</p>
+                <br>
+            <p>Neste caso, podemos notar como as adversidades da vida podem nos afetar em relação aos nossos objetivos e metas, mas também podemos aprender com Dalila que ter resiliência e adaptabilidade além de coragem de falar sobre problemas, contar com uma rede de apoio e nos flexibilizarmos as novas condições podem, mesmo que com muito esforço, nos ajudar a retomarmos a caminho rumo aos nossos objetivos e sonhos. </p>
+       </div>
+            `
+    })
+}
+
+
