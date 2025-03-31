@@ -46,5 +46,11 @@
             margin-bottom: 1rem !important;
             border-radius: 30px;
         }
+        #BtnEnvio {
+            background: var(--bs-azul-escuro) !important;
+            color: var(--bs-white) !important;
+            padding: 0.3rem 1rem !important;
+            margin-bottom: 1rem !important;
+        }
     /*Questão01*/
 /*Container03*/
