@@ -147,88 +147,62 @@
     }
     function mostrarPopup5() {
         Swal.fire({
-            title: '<strong >Situação 2</strong>',
+            title: '',
             html: `<div id="Sweetstrong">
-                <p>Amanda é aluna de um curso de Administração. Como a avaliação final de uma determinada disciplina, ela, junto a um grupo de estudantes, deverá apresentar um estudo de caso prático sobre como as inteligências artificiais generativas podem ser usadas em análises de dados de um determinado mercado consumidor.</p>
+                <strong >Mantenha-se aberto comunicativamente:</strong >
                     <br>
-                <p>Metodologias de análise de dados e mercados eram algo considerado razoavelmente fáceis de se fazer para Amanda e seus colegas de trabalho, mas o mesmo não poderia ser dito sobre inteligência artificial, já que em seu grupo o contato com este tipo de ferramenta havia sido muito superficial. Nas reuniões de planejamento das atividades do trabalho, havia  divergências sobre o que fazer e muitas dúvidas sobre como as inteligências artificiais operam e como podem ser exploradas.  </p>
+                <p>seja transparente e direto sobre os desafios. Se necessário, busque apoio com colegas mais experientes.</p>
                     <br>
-                <p>O grupo torna-se disfuncional logo após os debates feitos durante a reunião. Tanto o fato da forma de apresentação, quanto a relação entre colegas está conflitante o suficiente para não haver evoluções significativas do trabalho. Amanda sugere que o grupo se reorganize, priorizando o estudo do que são as IA’s e como elas podem ser utilizadas em cenários como o solicitado pelo trabalho final da disciplina.</p>
+                <strong >Procure desenvolver a autogestão emocional:</strong >
                     <br>
-                <p>Na reunião seguinte, os demais colegas chegam com muitos aprendizados a compartilhar e começam a esboçar algumas ideias de como poderiam apresentar o caso prático de uso de inteligência artificial na análise de dados de mercado.</p>
-                    <br>
-                <p>Neste caso,  Amanda demonstrou resiliência e adaptabilidade ao não se deixar levar pelo estresse e pressão inicial ocorrida no grupo, focando-se na busca pela resolução do problema. Em algumas situações, como o caso de Amanda, as nossas capacidades de resiliência e adaptabilidade pode nos levar a assumir algum papel de liderança ou de destaque. </p>
-        </div>
+                <p>momentos de pressão, tente manter a calma, isso ajudará muito em achar uma solução para o problema.</p>
+                </div>
                 `
         })
     }
     function mostrarPopup6() {
         Swal.fire({
-            title: '<strong >Situação 1</strong>',
+            title: '',
             html: `<div id="Sweetstrong">
-                <p>Dalila é estudante de Economia e faz parte de um projeto em parceria entre a sua universidade e uma empresa do ramo energético que visa captar jovens talentos para compor os diversos times da referida empresa. Somente os alunos com histórico de elevado desempenho acadêmico e participação em atividades extracurriculares são selecionados para o processo seletivo. </p>
+                <strong >Inspire-se por meio de exemplos em soluções criativas:</strong >
                     <br>
-                <p>Ela estava muito confiante de que estaria entre os selecionados, mas no último semestre, depois de muitas dores, incômodos e idas ao médico, foi diagnosticada com doença celíaca, o que lhe impôs uma restrição de consumo de alimentos com a presença de glúten. </strong></p>
+                <p>abordagens novas, inovadoras, criativas são bem-vindas.  Procure se inspirar por meio de exemplos, histórias e casos criativos!</p>
                     <br>
-                <p>Dalila precisou passar por diversos profissionais e orientações com nutricionistas para ajustar os seus hábitos alimentares, também por seções de psicoterapia para se reorganizar em relação a sua nova condição. Em meio a tudo isso, ela passou a temer pelo processo seletivo, já que todas estas adaptações e novos sentimentos afetaram os seus estudos e prazos e, portanto, havia o receio de suas notas diminuírem.</p>
+                <strong >Aprenda com feedbacks:</strong >
                     <br>
-                <p>Ela decide conversar sobre a sua situação com a professora Carolline, coordenadora do seu curso. Carolline orienta-lhe a adequar seus horários de estudos as suas novas rotinas de alimentação e exercícios. Além disso, se coloca à disposição de Dalila para outras conversas, se necessário for. 
-                Com este suporte e se sentindo mais confiante, Dalila segue se esforçando para manter o seu excelente desempenho acadêmico.</p>
-                    <br>
-                <p>Neste caso, podemos notar como as adversidades da vida podem nos afetar em relação aos nossos objetivos e metas, mas também podemos aprender com Dalila que ter resiliência e adaptabilidade além de coragem de falar sobre problemas, contar com uma rede de apoio e nos flexibilizarmos as novas condições podem, mesmo que com muito esforço, nos ajudar a retomarmos a caminho rumo aos nossos objetivos e sonhos. </p>
-        </div>
+                <p>aceite as críticas construtivas, use para melhorar suas atividades e desempenho</p>
+                </div>
                 `
         })
     }
     function mostrarPopup7() {
         Swal.fire({
-            title: '<strong >Situação 2</strong>',
+            title: '<strong ></strong>',
             html: `<div id="Sweetstrong">
-                <p>Amanda é aluna de um curso de Administração. Como a avaliação final de uma determinada disciplina, ela, junto a um grupo de estudantes, deverá apresentar um estudo de caso prático sobre como as inteligências artificiais generativas podem ser usadas em análises de dados de um determinado mercado consumidor.</p>
+                <strong >Procure desenvolver as suas capacidades de flexibilidade:</strong >
                     <br>
-                <p>Metodologias de análise de dados e mercados eram algo considerado razoavelmente fáceis de se fazer para Amanda e seus colegas de trabalho, mas o mesmo não poderia ser dito sobre inteligência artificial, já que em seu grupo o contato com este tipo de ferramenta havia sido muito superficial. Nas reuniões de planejamento das atividades do trabalho, havia  divergências sobre o que fazer e muitas dúvidas sobre como as inteligências artificiais operam e como podem ser exploradas.  </p>
+                <p>esteja pronto para mudar de estratégia, se necessário. Invista no aprendizado contínuo, escute outras opiniões e procure aprender a lidar com as diferenças</p>
                     <br>
-                <p>O grupo torna-se disfuncional logo após os debates feitos durante a reunião. Tanto o fato da forma de apresentação, quanto a relação entre colegas está conflitante o suficiente para não haver evoluções significativas do trabalho. Amanda sugere que o grupo se reorganize, priorizando o estudo do que são as IA’s e como elas podem ser utilizadas em cenários como o solicitado pelo trabalho final da disciplina.</p>
+                <strong >Trabalhe em equipe:</strong >
                     <br>
-                <p>Na reunião seguinte, os demais colegas chegam com muitos aprendizados a compartilhar e começam a esboçar algumas ideias de como poderiam apresentar o caso prático de uso de inteligência artificial na análise de dados de mercado.</p>
-                    <br>
-                <p>Neste caso,  Amanda demonstrou resiliência e adaptabilidade ao não se deixar levar pelo estresse e pressão inicial ocorrida no grupo, focando-se na busca pela resolução do problema. Em algumas situações, como o caso de Amanda, as nossas capacidades de resiliência e adaptabilidade pode nos levar a assumir algum papel de liderança ou de destaque. </p>
-        </div>
+                <p>a colaboração auxiliará no desenvolvimento de soluções mais rápidas e eficazes. Compartilhe sempre, compartilhe aprendizados.</p>
+                </div>
                 `
         })
     }
     function mostrarPopup8() {
         Swal.fire({
-            title: '<strong >Situação 1</strong>',
+            title: '',
             html: `<div id="Sweetstrong">
-                <p>Dalila é estudante de Economia e faz parte de um projeto em parceria entre a sua universidade e uma empresa do ramo energético que visa captar jovens talentos para compor os diversos times da referida empresa. Somente os alunos com histórico de elevado desempenho acadêmico e participação em atividades extracurriculares são selecionados para o processo seletivo. </p>
+                <div id="Sweetstrong">
+                <strong >Celebre as pequenas vitórias:</strong >
                     <br>
-                <p>Ela estava muito confiante de que estaria entre os selecionados, mas no último semestre, depois de muitas dores, incômodos e idas ao médico, foi diagnosticada com doença celíaca, o que lhe impôs uma restrição de consumo de alimentos com a presença de glúten. </strong></p>
+                <p>reconheça os progressos, pequenas vitórias são importantes e aumentam a confiança para enfrentar os desafios. Pequenas vitórias são vitórias também!</p>
                     <br>
-                <p>Dalila precisou passar por diversos profissionais e orientações com nutricionistas para ajustar os seus hábitos alimentares, também por seções de psicoterapia para se reorganizar em relação a sua nova condição. Em meio a tudo isso, ela passou a temer pelo processo seletivo, já que todas estas adaptações e novos sentimentos afetaram os seus estudos e prazos e, portanto, havia o receio de suas notas diminuírem.</p>
+                <strong >Cuide de sua saúde mental e física:</strong >
                     <br>
-                <p>Ela decide conversar sobre a sua situação com a professora Carolline, coordenadora do seu curso. Carolline orienta-lhe a adequar seus horários de estudos as suas novas rotinas de alimentação e exercícios. Além disso, se coloca à disposição de Dalila para outras conversas, se necessário for. 
-                Com este suporte e se sentindo mais confiante, Dalila segue se esforçando para manter o seu excelente desempenho acadêmico.</p>
-                    <br>
-                <p>Neste caso, podemos notar como as adversidades da vida podem nos afetar em relação aos nossos objetivos e metas, mas também podemos aprender com Dalila que ter resiliência e adaptabilidade além de coragem de falar sobre problemas, contar com uma rede de apoio e nos flexibilizarmos as novas condições podem, mesmo que com muito esforço, nos ajudar a retomarmos a caminho rumo aos nossos objetivos e sonhos. </p>
-        </div>
-                `
-        })
-    }
-    function mostrarPopup9() {
-        Swal.fire({
-            title: '<strong >Situação 2</strong>',
-            html: `<div id="Sweetstrong">
-                <p>Amanda é aluna de um curso de Administração. Como a avaliação final de uma determinada disciplina, ela, junto a um grupo de estudantes, deverá apresentar um estudo de caso prático sobre como as inteligências artificiais generativas podem ser usadas em análises de dados de um determinado mercado consumidor.</p>
-                    <br>
-                <p>Metodologias de análise de dados e mercados eram algo considerado razoavelmente fáceis de se fazer para Amanda e seus colegas de trabalho, mas o mesmo não poderia ser dito sobre inteligência artificial, já que em seu grupo o contato com este tipo de ferramenta havia sido muito superficial. Nas reuniões de planejamento das atividades do trabalho, havia  divergências sobre o que fazer e muitas dúvidas sobre como as inteligências artificiais operam e como podem ser exploradas.  </p>
-                    <br>
-                <p>O grupo torna-se disfuncional logo após os debates feitos durante a reunião. Tanto o fato da forma de apresentação, quanto a relação entre colegas está conflitante o suficiente para não haver evoluções significativas do trabalho. Amanda sugere que o grupo se reorganize, priorizando o estudo do que são as IA’s e como elas podem ser utilizadas em cenários como o solicitado pelo trabalho final da disciplina.</p>
-                    <br>
-                <p>Na reunião seguinte, os demais colegas chegam com muitos aprendizados a compartilhar e começam a esboçar algumas ideias de como poderiam apresentar o caso prático de uso de inteligência artificial na análise de dados de mercado.</p>
-                    <br>
-                <p>Neste caso,  Amanda demonstrou resiliência e adaptabilidade ao não se deixar levar pelo estresse e pressão inicial ocorrida no grupo, focando-se na busca pela resolução do problema. Em algumas situações, como o caso de Amanda, as nossas capacidades de resiliência e adaptabilidade pode nos levar a assumir algum papel de liderança ou de destaque. </p>
-        </div>
+                <p> encontre o seu equilíbrio. Procure aprender sobre si, identifique os limites que podem ser superados, mas também os que devem ser respeitados, isso ajudará a enfrentar os desafios.</p>
+                </div>
                 `
         })
     }
