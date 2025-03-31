@@ -110,5 +110,21 @@ function mostrarPopup2() {
             `
     })
 }
-
+function mostrarPopup3() {
+    Swal.fire({
+        title: '<strong >Situação 2</strong>',
+        html: `<div id="Sweetstrong">
+            <p>Amanda é aluna de um curso de Administração. Como a avaliação final de uma determinada disciplina, ela, junto a um grupo de estudantes, deverá apresentar um estudo de caso prático sobre como as inteligências artificiais generativas podem ser usadas em análises de dados de um determinado mercado consumidor.</p>
+                <br>
+            <p>Metodologias de análise de dados e mercados eram algo considerado razoavelmente fáceis de se fazer para Amanda e seus colegas de trabalho, mas o mesmo não poderia ser dito sobre inteligência artificial, já que em seu grupo o contato com este tipo de ferramenta havia sido muito superficial. Nas reuniões de planejamento das atividades do trabalho, havia  divergências sobre o que fazer e muitas dúvidas sobre como as inteligências artificiais operam e como podem ser exploradas.  </p>
+                <br>
+            <p>O grupo torna-se disfuncional logo após os debates feitos durante a reunião. Tanto o fato da forma de apresentação, quanto a relação entre colegas está conflitante o suficiente para não haver evoluções significativas do trabalho. Amanda sugere que o grupo se reorganize, priorizando o estudo do que são as IA’s e como elas podem ser utilizadas em cenários como o solicitado pelo trabalho final da disciplina.</p>
+                <br>
+            <p>Na reunião seguinte, os demais colegas chegam com muitos aprendizados a compartilhar e começam a esboçar algumas ideias de como poderiam apresentar o caso prático de uso de inteligência artificial na análise de dados de mercado.</p>
+                <br>
+            <p>Neste caso,  Amanda demonstrou resiliência e adaptabilidade ao não se deixar levar pelo estresse e pressão inicial ocorrida no grupo, focando-se na busca pela resolução do problema. Em algumas situações, como o caso de Amanda, as nossas capacidades de resiliência e adaptabilidade pode nos levar a assumir algum papel de liderança ou de destaque. </p>
+       </div>
+            `
+    })
+}
 
