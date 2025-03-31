@@ -38,3 +38,49 @@
         }
     /*Popup*/
 /*Container03*/
+
+
+
+
+
+
+
+
+
+function verificarResposta() {
+    let checkboxes = document.querySelectorAll('.option');
+    let correta = false;
+    let erro = false;
+
+    checkboxes.forEach(checkbox => {
+        if (checkbox.checked && checkbox.value === "true") {
+            correta = true;
+        }
+        if (checkbox.checked && checkbox.value === "false") {
+            erro = true;
+        }
+    });
+
+    if (correta && !erro) {
+        Swal.fire({
+            icon: 'success',
+            title: 'Parabéns!',
+            text: 'Você selecionou a resposta correta!'
+        });
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Ops!',
+            text: 'Resposta incorreta, tente novamente.'
+        });
+        checkboxes.forEach(checkbox => checkbox.checked = false);
+        document.getElementById('verificarBtn').style.display = 'none';
+    }
+}
+
+document.querySelectorAll('.option').forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+        let algumMarcado = Array.from(document.querySelectorAll('.option')).some(cb => cb.checked);
+        document.getElementById('verificarBtn').style.display = algumMarcado ? 'block' : 'none';
+    });
+});
