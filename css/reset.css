@@ -19,3 +19,6 @@
 .carousel-control-prev-icon {
     background-image: url(../img/icons/Esquerdaseta.png) !important;
 }
+.swal2-confirm {
+    background: var(--bs-white) !important;
+}

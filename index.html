@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./fonts/PlayfairDisplay-Regular.ttf">
         <!--Css Api-->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <!--Css Api-->
     <!--Css-->
 </head>
@@ -159,79 +160,39 @@
                                                             <!--Titulo-->
                                                             <br>
                                                             <span class="d-flex justify-content-evenly align-items-center">
-                                                                <img class="w-25" src="./img/icons/questao01.png" alt="Primeiro Icon">
-                                                                <img class="w-25" src="./img/icons/questao02.png" alt="Segundo Icon">
+                                                                <!--Questão01-->
+                                                                    <button style="background: var(--bs-azul-intermediario); cursor: pointer;" class="icon-button w-25" onclick="mostrarPopup()">
+                                                                        <img class="w-100" src="./img/icons/questao01.png" alt="Primeiro Icon">
+                                                                    </button>
+                                                                
+                                                                    <div id="popup" class="popup-overlay">
+                                                                        <div class="popup-content">
+                                                                            <p><strong>Cenário:</strong>
+                                                                                A flexibilidade permite lidar com imprevistos e mudanças no cotidiano, como ajustar as prioridades ou encontrar novas soluções para problemas inesperados.
+                                                                            </p>
+                                                                            <p><strong>Instruções:</strong>
+                                                                                Com base no texto, analise como a flexibilidade pode auxiliar na resolução de desafios diários. 
+                                                                                Utilize exemplos práticos para fundamentar sua resposta.
+                                                                            </p>
+                                                                            <p><strong>Pergunta:</strong>
+                                                                                Como a flexibilidade contribui para a adaptação a imprevistos no dia a dia e para a busca de soluções eficazes?
+                                                                            </p>
+                                                                            <textarea id="input-text" oninput="checkInput()" placeholder="Digite algo..."></textarea> 
+                                                                            <div class="btn-container" id="btn-container">
+                                                                                <button class="btn btn-primary" onclick="enviarTexto()">Enviar</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                <!--Questão01-->
+                                                                <!--Questão01-->
+                                                                <!--Questão02-->    
+                                                                    <img class="w-25" src="./img/icons/questao02.png" alt="Segundo Icon">
+                                                                <!--Questão02-->   
                                                                 <img class="w-25" src="./img/icons/questao03.png" alt="Terceiro Icon">
                                                             </span>
                                                         </span>
                                                     </div>
                                                 <!--Questão 1-->
-                                              <div class="carousel-item w-75">
-                                                <span class="w-100">
-                                                    <!--Introdução-->
-                                                        <span style="gap: 0.5rem;" class="d-flex align-items-end">
-                                                            <img style="width: 15% !important;" src="./img/icons/icon02.webp" alt="Icon parte01">
-                                                            <span style="height: 6vh !important; display: flex; align-items: center; width: 35% !important;">
-                                                                <h4 style="background: url(./img/icons/Setaamarela.webp); background-size: cover; width: 100% !important; padding-left: 1rem !important; color: var(--bs-azul-escuro); font-family: PlayfairDisplay-Regular !important; font-size: 2rem;">Parte 1</h4>
-                                                            </span>
-                                                        </span>
-                                                    <!--Introdução-->
-                                                    <br>
-                                                    <!--Titulo-->
-                                                        <div style="color: var(--bs-white);">
-                                                            <h4>Flexibilidade </h4>
-                                                        </div>
-                                                    <!--Titulo-->
-                                                    <br>
-                                                    <span style="color: var(--bs-white); font-size: 1.1rem;">
-                                                        <p>Flexibilidade é uma habilidade que pode ser observada em diversas situações do nosso cotidiano, nos estudos, no trabalho, e até mesmo no convívio com amigos e a família. Por exemplo, uma pessoa está no trânsito, se depara com um bloqueio inesperado que a obriga a encontrar uma rota alternativa, ou então, a flexibilidade aparece quando alguém reorganiza sua agenda para atender a uma necessidade urgente ou ao adotar uma nova tecnologia/conhecimento para facilitar tarefas diárias, mesmo que isso exija sair de sua zona de conforto.</p>
-                                                            <br>
-                                                        <p>Do ponto de vista da Psicologia, ela é amplamente reconhecida como uma habilidade essencial para o bem-estar emocional e para o desenvolvimento / crescimento pessoal. Trata-se da capacidade de ajustar pensamentos, emoções e comportamentos diante de mudanças ou desafios, permitindo às pessoas enfrentarem situações complexas e incertas de forma eficaz. Neste sentido, torna-se a habilidade fundamental para resolver problemas e evitar padrões rígidos de pensamento, associando-a à resiliência e ao otimismo, primordiais para lidar com adversidades e encontrar oportunidades de crescimento.</p>
-                                                            <br>
-                                                        <p>De maneira geral, a Psicologia enfatiza que a flexibilidade vai além de simplesmente se adaptar; ela envolve um equilíbrio entre preservar valores fundamentais e ajustar-se de maneira prática e criativa às demandas do ambiente. Esta habilidade é vista como um pilar para a saúde mental, o fortalecimento de relações interpessoais e o sucesso em um mundo em constante transformação.</p>    
-                                                            <br>
-                                                        <p>Imagine um grupo de estudantes que está realizando um projeto ou trabalho de uma disciplina, com papéis para cada um e o prazo de entrega já estipulado. No entanto, um dos estudantes se transfere para outra universidade e não poderá concluir a parte que lhe cabia no trabalho.  Neste caso, os membros do grupo demonstram flexibilidade ao reorganizar os papéis de cada um, atribuindo-lhes novas tarefas para que todos ajudem a cobrir as lacunas deixadas pelo ex-colega, ajustando o cronograma sem comprometer a qualidade do trabalho.</p>
-                                                            <br>
-                                                        <p>A flexibilidade também pode aparecer quando estamos abertos a aproveitar oportunidades. Imagine que a faculdade em que você estuda esteja atenta às demandas do mercado profissional e tenha detectado que as habilidades de manejo de inteligências artificiais generativas (como o Chat GPT) seja uma habilidade altamente em foco para os próximos anos e, por isso, são oferecidos cursos extras para os estudantes interessados. Neste caso, ser flexível significaria matricular-se no curso, abraçando o desenvolvimento de novos conhecimentos, ainda que estes não sejam obrigatórios em seu curso. </p>
-                                                            <br>
-                                                        <p>Atitudes como estas transformam as mudanças, inicialmente vistas como desafios, em oportunidades. Flexibilidade, portanto, é a capacidade de adaptar-se a novas situações e desafios, mantendo o foco em soluções práticas e eficientes.</p>
-                                                            <br>
-                                                    </span>
-                                                </span>
-                                              </div>
-                                              <div class="carousel-item w-75">
-                                                <span class="w-100">
-                                                    <!--Introdução-->
-                                                        <span style="gap: 0.5rem;" class="d-flex align-items-end">
-                                                            <img style="width: 15% !important;" src="./img/icons/icon02.webp" alt="Icon parte01">
-                                                            <span style="height: 6vh !important; display: flex; align-items: center; width: 35% !important;">
-                                                                <h4 style="background: url(./img/icons/Setaamarela.webp); background-size: cover; width: 100% !important; padding-left: 1rem !important; color: var(--bs-azul-escuro); font-family: PlayfairDisplay-Regular !important; font-size: 2rem;">Parte 1</h4>
-                                                            </span>
-                                                        </span>
-                                                    <!--Introdução-->
-                                                    <br>
-                                                    <!--Titulo-->
-                                                        <div style="color: var(--bs-white);">
-                                                            <h4>Flexibilidade </h4>
-                                                        </div>
-                                                    <!--Titulo-->
-                                                    <br>
-                                                    <span style="color: var(--bs-white); font-size: 1.1rem;">
-                                                        <p>Flexibilidade é uma habilidade que pode ser observada em diversas situações do nosso cotidiano, nos estudos, no trabalho, e até mesmo no convívio com amigos e a família. Por exemplo, uma pessoa está no trânsito, se depara com um bloqueio inesperado que a obriga a encontrar uma rota alternativa, ou então, a flexibilidade aparece quando alguém reorganiza sua agenda para atender a uma necessidade urgente ou ao adotar uma nova tecnologia/conhecimento para facilitar tarefas diárias, mesmo que isso exija sair de sua zona de conforto.</p>
-                                                            <br>
-                                                        <p>Do ponto de vista da Psicologia, ela é amplamente reconhecida como uma habilidade essencial para o bem-estar emocional e para o desenvolvimento / crescimento pessoal. Trata-se da capacidade de ajustar pensamentos, emoções e comportamentos diante de mudanças ou desafios, permitindo às pessoas enfrentarem situações complexas e incertas de forma eficaz. Neste sentido, torna-se a habilidade fundamental para resolver problemas e evitar padrões rígidos de pensamento, associando-a à resiliência e ao otimismo, primordiais para lidar com adversidades e encontrar oportunidades de crescimento.</p>
-                                                            <br>
-                                                        <p>De maneira geral, a Psicologia enfatiza que a flexibilidade vai além de simplesmente se adaptar; ela envolve um equilíbrio entre preservar valores fundamentais e ajustar-se de maneira prática e criativa às demandas do ambiente. Esta habilidade é vista como um pilar para a saúde mental, o fortalecimento de relações interpessoais e o sucesso em um mundo em constante transformação.</p>    
-                                                            <br>
-                                                        <p>Imagine um grupo de estudantes que está realizando um projeto ou trabalho de uma disciplina, com papéis para cada um e o prazo de entrega já estipulado. No entanto, um dos estudantes se transfere para outra universidade e não poderá concluir a parte que lhe cabia no trabalho.  Neste caso, os membros do grupo demonstram flexibilidade ao reorganizar os papéis de cada um, atribuindo-lhes novas tarefas para que todos ajudem a cobrir as lacunas deixadas pelo ex-colega, ajustando o cronograma sem comprometer a qualidade do trabalho.</p>
-                                                            <br>
-                                                        <p>A flexibilidade também pode aparecer quando estamos abertos a aproveitar oportunidades. Imagine que a faculdade em que você estuda esteja atenta às demandas do mercado profissional e tenha detectado que as habilidades de manejo de inteligências artificiais generativas (como o Chat GPT) seja uma habilidade altamente em foco para os próximos anos e, por isso, são oferecidos cursos extras para os estudantes interessados. Neste caso, ser flexível significaria matricular-se no curso, abraçando o desenvolvimento de novos conhecimentos, ainda que estes não sejam obrigatórios em seu curso. </p>
-                                                            <br>
-                                                        <p>Atitudes como estas transformam as mudanças, inicialmente vistas como desafios, em oportunidades. Flexibilidade, portanto, é a capacidade de adaptar-se a novas situações e desafios, mantendo o foco em soluções práticas e eficientes.</p>
-                                                            <br>
-                                                    </span>
-                                                </span>
-                                              </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -827,6 +788,7 @@
     </main>
 </body>
     <!--Js-->
+    <script src="./js/popup.js"></script>
         <!--Js Api-->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <!--Js Api-->
