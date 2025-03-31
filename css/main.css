@@ -44,17 +44,27 @@
         }
     /*Popup*/
 /*Container03*/
-#swal2-title {
-    padding-top: 1rem !important;
-    font-family: OpenSans-Regular !important;
-}
-.swal2-confirm {
-    display: none !important;
-}
-.swal2-html-container {
-    padding: 1rem !important;
-    padding-bottom: 3rem !important;
-}
-#Sweetstrong  {
-    text-align: justify !important;
-}
+/*Container07*/
+    .draggable, .draggable02, .draggable03{
+        width: 50%;
+        text-align: center;
+        cursor: grab;
+        border-radius: 5px;
+    }
+
+    .highlight-drop, .highlight-drop2, .highlight-drop3{
+        border: 2px solid green;
+        background: #fff;
+    }
+    .container, .container02, .container03{
+        width: 50%;
+        height: 50px;
+        border: 2px dashed #333;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        position: relative;  /* Faz o container ser um ponto de referência para o posicionamento do item */
+    }
+/*Container07*/

@@ -19,3 +19,19 @@
 .carousel-control-prev-icon {
     background-image: url(../img/icons/Esquerdaseta.png) !important;
 }
+/*Sweetalert*/
+    #swal2-title {
+        padding-top: 1rem !important;
+        font-family: OpenSans-Regular !important;
+    }
+    .swal2-confirm {
+        display: none !important;
+    }
+    .swal2-html-container {
+        padding: 1rem !important;
+        padding-bottom: 3rem !important;
+    }
+    #Sweetstrong  {
+        text-align: justify !important;
+    }
+/*Sweetalert*/
