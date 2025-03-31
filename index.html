@@ -205,11 +205,42 @@
                                                                         </div>
                                                                     </div>
                                                                 <!-- Questão 02 -->
-                                                                <img class="w-25" src="./img/icons/questao03.png" alt="Terceiro Icon">
+                                                                <!--Questões 03-->
+                                                                    <button style="background: var(--bs-azul-intermediario); cursor: pointer;" class="icon-button w-25" onclick="mostrarPopup('popup3')">
+                                                                        <img class="w-100" src="./img/icons/questao03.png" alt="Terceiro Icon">
+                                                                    </button>   
+                                                                    <div id="popup3" class="popup-overlay" onclick="fecharPopup('popup3')" aria-hidden="true">
+                                                                        <div class="popup-content" onclick="event.stopPropagation()">
+                                                                            <p><strong>Cenário:</strong>
+                                                                                As pessoas precisam se adaptar rapidamente a novas tendências para se manterem atualizadas. A falta de flexibilidade pode resultar em desvantagem competitiva.
+                                                                            </p>
+                                                                            <p><strong>Instruções:</strong>
+                                                                                A partir do exemplo citado no texto referente às tendências do mercado profissional, avalie o impacto da flexibilidade no contexto de busca de novos conhecimentos e sua relação com as tendências. Considere como a capacidade de adaptação pode influenciar a inovação.
+                                                                            </p>
+                                                                            <p><strong>Pergunta:</strong>
+                                                                                Por que a flexibilidade é um fator determinante para o sucesso de pessoas que estão atentas às tendências de mercado?
+                                                                            </p>
+                                                                            <textarea id="input-text3" oninput="checkInput('input-text3', 'btn-container3')" placeholder="Digite algo..."></textarea> 
+                                                                            <div class="btn-container justify-content-center align-items-center" id="btn-container3" style="visibility: hidden;">
+                                                                                <button class="btn btn-primary" id="BtnEnvio" onclick="enviarTexto('input-text3', 'popup3', 'Pessoas que desenvolvem a flexibilidade como um valor essencial conseguem ajustar-se rapidamente às mudanças e novas tendências, buscando conhecimentos inéditos e obtendo um portfólio adaptável. No exemplo da faculdade que ofereceu cursos de conteúdos que estão em alta no mercado, a capacidade de adaptação permite que o estudante desenvolva novos conhecimentos e esteja à frente de concorrentes na busca do primeiro emprego.')">Feedback</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>  
+                                                                <!--Questões 03-->
                                                             </span>
                                                         </span>
                                                     </div>
                                                 <!--Questão 1-->
+                                                <!--Fechamento-->
+                                                    <div class="carousel-item w-75">
+                                                        <span class="w-100">
+                                                            <span style="color: var(--bs-white); font-size: 1.1rem;">
+                                                                <p>Como pudemos ver, a flexibilidade é uma importante característica de pessoas adaptáveis e resilientes. Ser flexível não significa abdicar de princípios, mas sim encontrar soluções éticas e adaptativas para situações inesperadas ou desafiadoras. No cotidiano, ou no trabalho, manifesta-se em decisões práticas, como replanejar rotas ou ajustar prioridades, evitando rigidez e promovendo soluções eficazes, principalmente frente às mudanças. A experiência reforça que a flexibilidade é uma habilidade indispensável para enfrentar adversidades, manter a qualidade das nossas atividades acadêmicas ou laborais a fim de fortalecer as relações pessoais, sendo uma ponte entre ética, adaptabilidade e sucesso.</p>
+                                                                    <br>
+                                                            </span>
+                                                        </span>
+                                                    </div>
+                                                <!--Fechamento-->
                                             </div>
                                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
